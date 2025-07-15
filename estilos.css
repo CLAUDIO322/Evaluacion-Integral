@@ -1,0 +1,67 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+section{
+    padding: 10px;
+}
+.cursos img{
+    height: 250px;
+}
+footer{
+    text-align: center;
+    background-color: lightgrey;
+    margin-bottom: 0%;
+    
+}
+footer a{
+    margin: 5px;
+    font-size: 20px;
+}
+section p{
+    text-align: justify;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1020;
+}
+.bxslider img{
+    height: 500px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+.transparente {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 450px;
+    z-index: 999;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.rowtransparente{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    z-index: 1000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
